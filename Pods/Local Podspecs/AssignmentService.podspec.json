@@ -1,0 +1,23 @@
+{
+  "name": "AssignmentService",
+  "version": "1.0.0",
+  "summary": "Framework to make a service call",
+  "description": "The framework will allow user to make a service call",
+  "homepage": "https://github.com/shabri/Weather",
+  "license": "MIT",
+  "authors": {
+    "shabri": "shabarinath.pabba@gmail.com"
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "source": {
+    "git": "https://github.com/shabri/AssignmentService.git",
+    "tag": "1.0.0"
+  },
+  "source_files": [
+    "AssignmentService",
+    "AssignmentService/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude"
+}
