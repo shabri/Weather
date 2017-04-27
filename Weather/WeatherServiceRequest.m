@@ -7,8 +7,8 @@
 //
 
 #import "WeatherServiceRequest.h"
-#import "WeatherDetailsObject.h"
-#import "ServiceRequest.h"
+#import <AssignmentService/WeatherDetailsObject.h>
+#import <AssignmentService/ServiceRequest.h>
 
 #define kWeatherURL @"http://api.openweathermap.org/data/2.5/weather?q=%@&APPID=546d2aa35992e39813e04797865fd20e"
 

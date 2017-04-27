@@ -8,9 +8,9 @@
 
 #import "ViewController.h"
 #import "WeatherServiceRequest.h"
-#import "WeatherDetailsObject.h"
+#import <AssignmentService/WeatherDetailsObject.h>
 #import "TemperatureTableViewCell.h"
-#import "NSString+JustSpaces.h"
+#import <AssignmentService/NSString+JustSpaces.h>
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *contentsTableView;

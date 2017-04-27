@@ -7,7 +7,7 @@
 //
 
 #import "TemperatureTableViewCell.h"
-#import "WeatherDetailsObject.h"
+#import <AssignmentService/WeatherDetailsObject.h>
 
 @interface TemperatureTableViewCell(){
     

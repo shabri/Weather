@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73505C791EAC119E00FF1D2A /* NSString+JustSpaces.m in Sources */ = {isa = PBXBuildFile; fileRef = 73505C781EAC119E00FF1D2A /* NSString+JustSpaces.m */; };
-		735A75541EAC51480037FA8F /* ServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 735A75531EAC51480037FA8F /* ServiceRequest.m */; };
 		736A43591E8CDDF500AAF641 /* WeatherServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 736A43581E8CDDF500AAF641 /* WeatherServiceRequest.m */; };
-		736A435D1E8D607B00AAF641 /* WeatherDetailsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 736A435C1E8D607B00AAF641 /* WeatherDetailsObject.m */; };
 		736A43611E8D823900AAF641 /* TemperatureTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 736A43601E8D823900AAF641 /* TemperatureTableViewCell.m */; };
 		739B520A1E8CB5150056998D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 739B52091E8CB5150056998D /* main.m */; };
 		739B520D1E8CB5150056998D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 739B520C1E8CB5150056998D /* AppDelegate.m */; };
@@ -19,6 +16,7 @@
 		739B52151E8CB5150056998D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739B52141E8CB5150056998D /* Assets.xcassets */; };
 		739B52181E8CB5150056998D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739B52161E8CB5150056998D /* LaunchScreen.storyboard */; };
 		739B52231E8CB5150056998D /* WeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 739B52221E8CB5150056998D /* WeatherTests.m */; };
+		73AA0CA61EB1B97C000A94BE /* AssignmentService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AA0CA31EB1B8F3000A94BE /* AssignmentService.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,17 +27,25 @@
 			remoteGlobalIDString = 739B52041E8CB5150056998D;
 			remoteInfo = Weather;
 		};
+		73AA0CA21EB1B8F3000A94BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73AA0C9E1EB1B8F3000A94BE /* AssignmentService.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73AA0C811EB1ABF9000A94BE;
+			remoteInfo = AssignmentService;
+		};
+		73AA0CA41EB1B93B000A94BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73AA0C9E1EB1B8F3000A94BE /* AssignmentService.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 73AA0C801EB1ABF9000A94BE;
+			remoteInfo = AssignmentService;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		73505C771EAC119E00FF1D2A /* NSString+JustSpaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JustSpaces.h"; sourceTree = "<group>"; };
-		73505C781EAC119E00FF1D2A /* NSString+JustSpaces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JustSpaces.m"; sourceTree = "<group>"; };
-		735A75521EAC51480037FA8F /* ServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceRequest.h; path = Assets.xcassets/ServiceRequest.h; sourceTree = "<group>"; };
-		735A75531EAC51480037FA8F /* ServiceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServiceRequest.m; path = Assets.xcassets/ServiceRequest.m; sourceTree = "<group>"; };
 		736A43571E8CDDF500AAF641 /* WeatherServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherServiceRequest.h; sourceTree = "<group>"; };
 		736A43581E8CDDF500AAF641 /* WeatherServiceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherServiceRequest.m; sourceTree = "<group>"; };
-		736A435B1E8D607B00AAF641 /* WeatherDetailsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDetailsObject.h; sourceTree = "<group>"; };
-		736A435C1E8D607B00AAF641 /* WeatherDetailsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDetailsObject.m; sourceTree = "<group>"; };
 		736A435F1E8D823900AAF641 /* TemperatureTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureTableViewCell.h; sourceTree = "<group>"; };
 		736A43601E8D823900AAF641 /* TemperatureTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureTableViewCell.m; sourceTree = "<group>"; };
 		739B52051E8CB5150056998D /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +61,7 @@
 		739B521E1E8CB5150056998D /* WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		739B52221E8CB5150056998D /* WeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherTests.m; sourceTree = "<group>"; };
 		739B52241E8CB5150056998D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73AA0C9E1EB1B8F3000A94BE /* AssignmentService.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AssignmentService.xcodeproj; path = AssignmentService/AssignmentService.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73AA0CA61EB1B97C000A94BE /* AssignmentService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,26 +90,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		73505C751EAC10A800FF1D2A /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				736A435A1E8D5FDB00AAF641 /* Weather Objects */,
-				73505C761EAC116D00FF1D2A /* Categories */,
-				735A75521EAC51480037FA8F /* ServiceRequest.h */,
-				735A75531EAC51480037FA8F /* ServiceRequest.m */,
-			);
-			name = Framework;
-			sourceTree = "<group>";
-		};
-		73505C761EAC116D00FF1D2A /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				73505C771EAC119E00FF1D2A /* NSString+JustSpaces.h */,
-				73505C781EAC119E00FF1D2A /* NSString+JustSpaces.m */,
-			);
-			name = Categories;
-			sourceTree = "<group>";
-		};
 		736A43561E8CDDAF00AAF641 /* Weather Service Request */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,15 +97,6 @@
 				736A43581E8CDDF500AAF641 /* WeatherServiceRequest.m */,
 			);
 			name = "Weather Service Request";
-			sourceTree = "<group>";
-		};
-		736A435A1E8D5FDB00AAF641 /* Weather Objects */ = {
-			isa = PBXGroup;
-			children = (
-				736A435B1E8D607B00AAF641 /* WeatherDetailsObject.h */,
-				736A435C1E8D607B00AAF641 /* WeatherDetailsObject.m */,
-			);
-			name = "Weather Objects";
 			sourceTree = "<group>";
 		};
 		736A435E1E8D81F300AAF641 /* UITableViewCells */ = {
@@ -132,6 +111,7 @@
 		739B51FC1E8CB5150056998D = {
 			isa = PBXGroup;
 			children = (
+				73AA0C9E1EB1B8F3000A94BE /* AssignmentService.xcodeproj */,
 				739B52071E8CB5150056998D /* Weather */,
 				739B52211E8CB5150056998D /* WeatherTests */,
 				739B52061E8CB5150056998D /* Products */,
@@ -152,7 +132,6 @@
 		739B52071E8CB5150056998D /* Weather */ = {
 			isa = PBXGroup;
 			children = (
-				73505C751EAC10A800FF1D2A /* Framework */,
 				736A435E1E8D81F300AAF641 /* UITableViewCells */,
 				739B520B1E8CB5150056998D /* AppDelegate.h */,
 				739B520C1E8CB5150056998D /* AppDelegate.m */,
@@ -185,6 +164,14 @@
 			path = WeatherTests;
 			sourceTree = "<group>";
 		};
+		73AA0C9F1EB1B8F3000A94BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73AA0CA31EB1B8F3000A94BE /* AssignmentService.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		EC37DAF5C1A2AF3A7EC234DA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +193,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				73AA0CA51EB1B93B000A94BE /* PBXTargetDependency */,
 			);
 			name = Weather;
 			productName = Weather;
@@ -259,6 +247,12 @@
 			mainGroup = 739B51FC1E8CB5150056998D;
 			productRefGroup = 739B52061E8CB5150056998D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 73AA0C9F1EB1B8F3000A94BE /* Products */;
+					ProjectRef = 73AA0C9E1EB1B8F3000A94BE /* AssignmentService.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				739B52041E8CB5150056998D /* Weather */,
@@ -266,6 +260,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		73AA0CA31EB1B8F3000A94BE /* AssignmentService.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AssignmentService.framework;
+			remoteRef = 73AA0CA21EB1B8F3000A94BE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		739B52031E8CB5150056998D /* Resources */ = {
@@ -292,12 +296,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73505C791EAC119E00FF1D2A /* NSString+JustSpaces.m in Sources */,
-				736A435D1E8D607B00AAF641 /* WeatherDetailsObject.m in Sources */,
 				736A43591E8CDDF500AAF641 /* WeatherServiceRequest.m in Sources */,
 				736A43611E8D823900AAF641 /* TemperatureTableViewCell.m in Sources */,
 				739B52101E8CB5150056998D /* ViewController.m in Sources */,
-				735A75541EAC51480037FA8F /* ServiceRequest.m in Sources */,
 				739B520D1E8CB5150056998D /* AppDelegate.m in Sources */,
 				739B520A1E8CB5150056998D /* main.m in Sources */,
 			);
@@ -318,6 +319,11 @@
 			isa = PBXTargetDependency;
 			target = 739B52041E8CB5150056998D /* Weather */;
 			targetProxy = 739B521F1E8CB5150056998D /* PBXContainerItemProxy */;
+		};
+		73AA0CA51EB1B93B000A94BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AssignmentService;
+			targetProxy = 73AA0CA41EB1B93B000A94BE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
