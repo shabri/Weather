@@ -7,10 +7,12 @@
 //
 
 #import "ViewController.h"
-#import "WeatherServiceRequest.h"
+#import <AssignmentService/WeatherServiceRequest.h>
 #import <AssignmentService/WeatherDetailsObject.h>
 #import "TemperatureTableViewCell.h"
 #import <AssignmentService/NSString+JustSpaces.h>
+
+#define kWeatherURL @"http://api.openweathermap.org/data/2.5/weather?q=%@&APPID=546d2aa35992e39813e04797865fd20e"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *contentsTableView;
@@ -51,7 +53,7 @@
     }
     //Its not an empty city string
     WeatherServiceRequest *request = [WeatherServiceRequest sharedInstance];
-    [request requestWeatherForCity:city success:^(id payload) {
+    [request requestWeatherForCity:city appID:kWeatherURL success:^(id payload) {
         
         self.weatherObject = (WeatherDetailsObject *)payload;
         [self saveCustomObject:self.weatherObject key:@"lastLoadedWeatherObject"];
