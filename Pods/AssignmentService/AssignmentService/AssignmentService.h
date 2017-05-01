@@ -16,7 +16,7 @@ FOUNDATION_EXPORT const unsigned char AssignmentServiceVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <AssignmentService/PublicHeader.h>
 
-#import <AssignmentService/ServiceRequest.h>
+#import <AssignmentService/WeatherServiceRequest.h>
 #import <AssignmentService/NSString+JustSpaces.h>
 #import <AssignmentService/WeatherDetailsObject.h>
 

@@ -10,8 +10,6 @@
 #import <AssignmentService/WeatherDetailsObject.h>
 #import <AssignmentService/ServiceRequest.h>
 
-#define kWeatherURL @"http://api.openweathermap.org/data/2.5/weather?q=%@&APPID=546d2aa35992e39813e04797865fd20e"
-
 @interface WeatherServiceRequest(){
 }
 
@@ -32,11 +30,11 @@
     return sharedInstance;
 }
 
--(void)requestWeatherForCity:(NSString *)cityString success:(void (^)(id payload))completionBlock failure:(void (^)(NSError *error))failureBlock{
+-(void)requestWeatherForCity:(NSString *)cityString appID:(NSString *)key success:(void (^)(id))completionBlock failure:(void (^)(NSError *))failureBlock{
     //Takes the NSString for city name and then makes it a non Space word and then uses AFNetworking to get back a payload and passes to the completion block from where it will be easy to catch the payload from
     
     NSString *nonSpaceCityString = [cityString stringByReplacingOccurrencesOfString:@" " withString:@""];
-    NSString *urlString = [NSString stringWithFormat:kWeatherURL, nonSpaceCityString];
+    NSString *urlString = [NSString stringWithFormat:key, nonSpaceCityString];
     NSURL *url = [NSURL URLWithString:urlString];
     
     [self.frameWorkServiceRequest getResponseForUrlString:url success:^(id payload) {

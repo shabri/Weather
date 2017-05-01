@@ -12,6 +12,6 @@
 
 + (instancetype)sharedInstance;// Single ton for Weather Service Request
 
--(void)requestWeatherForCity:(NSString *)cityString success:(void (^)(id payload))completionBlock failure:(void (^)(NSError *error))failureBlock;
+-(void)requestWeatherForCity:(NSString *)cityString appID: (NSString *)key success:(void (^)(id payload))completionBlock failure:(void (^)(NSError *error))failureBlock;
 
 @end

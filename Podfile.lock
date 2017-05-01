@@ -1,22 +1,22 @@
 PODS:
-  - AssignmentService (1.0.0)
+  - AssignmentService (1.0.1)
 
 DEPENDENCIES:
-  - AssignmentService (from `https://github.com/shabri/AssignmentService.git`, tag `1.0.0`)
+  - AssignmentService (from `https://github.com/shabri/AssignmentService.git`, tag `1.0.1`)
 
 EXTERNAL SOURCES:
   AssignmentService:
     :git: https://github.com/shabri/AssignmentService.git
-    :tag: 1.0.0
+    :tag: 1.0.1
 
 CHECKOUT OPTIONS:
   AssignmentService:
     :git: https://github.com/shabri/AssignmentService.git
-    :tag: 1.0.0
+    :tag: 1.0.1
 
 SPEC CHECKSUMS:
-  AssignmentService: 715a28148b37ff5472eacd708a9b9dc0a6e7467e
+  AssignmentService: f89dce3aa7325edde943cd1931bc8028825d963b
 
-PODFILE CHECKSUM: c33a4cd1ff2d2029b52a083a23e7f3348db3173c
+PODFILE CHECKSUM: b8635582e1fe545315fb6796fff4f55643a5bf15
 
 COCOAPODS: 1.2.1
